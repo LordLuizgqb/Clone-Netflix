@@ -1,0 +1,28 @@
+  
+  :root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+  .c-carregando {
+    animation: is-rotating 1s infinite;
+    border: 6px solid var(--preta);
+    border-radius: 50%;
+    border-top-color: var(--vermelho) ;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+.alinhar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
+}

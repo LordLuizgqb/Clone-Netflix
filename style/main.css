@@ -39,7 +39,16 @@ header nav a:hover{
     color: #fff;
 }
 
-/*Elementos do livro principal*/
+.item{
+    cursor: pointer;
+    padding: 3px;
+}
+
+.item:hover{
+    background: linear-gradient(var(--vermelho), var(--vermelho));
+}
+
+/*Elementos do Filme principal*/
 
 .filme-principal{
     font-size: 15px;
@@ -136,4 +145,77 @@ header nav a:hover{
     justify-content: space-between;
     margin-top: 7px;
     margin-left: 10px;
+}
+
+/*Elemetnos do filme a origem*/
+
+.banner{
+    margin: 40px;
+    display: flex;
+}
+
+.sinopse{
+    margin-left: 10px;
+}
+
+.ator-nome{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+}
+.ator-nome:hover{
+    color: gray;
+}
+
+.ator{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.sinopse-diretor{
+    display: flex;
+    font-weight: bold;
+}
+
+.diretor{
+    color: white;
+}
+
+.diretor:hover{
+    color: gray;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.circulo{
+    border-radius: 50%;
+    background-color: #E50914;
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+}
+
+.circulo-dentro{
+    padding-top: 15px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 30px;
+}
+
+.negrito{
+    font-weight: bold;
+    font-size: large;
+}
+
+.extra{
+    align-items:center;
 }
